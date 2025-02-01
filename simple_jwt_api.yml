@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: simple-jwt-api
-          image: myimage
+          image: lnsc/project-flask
           securityContext:
             privileged: false
             readOnlyRootFilesystem: false
